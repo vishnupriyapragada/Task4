@@ -1,10 +1,10 @@
 Project: Flipkart Mobile Data Scraping, Cleaning & SQL Analysis
 
-Overview
+Overview:
 
 This project demonstrates the end-to-end process of extracting, cleaning, and analyzing e-commerce data from the Flipkart website using Python and MySQL.
 
-Steps Performed
+Steps Performed:
 
 Web Scraping (Python)
 
@@ -12,7 +12,7 @@ Collected mobile phone data (Title, Price, Rating) from Flipkart using Beautiful
 
 Stored the scraped data into a CSV file.
 
-Data Cleaning
+Data Cleaning:
 
 Removed unwanted characters and symbols from price and rating.
 
@@ -22,7 +22,7 @@ Price Category (Low / Medium / High)
 
 Rating Category (Low / Medium / High)
 
-SQL Operations (MySQL Workbench)
+SQL Operations (MySQL Workbench):
 
 Basic Queries: SELECT, WHERE, ORDER BY, GROUP BY
 
