@@ -4,6 +4,7 @@ Overview:
 
 This project demonstrates the end-to-end process of extracting, cleaning, and analyzing e-commerce data from the Flipkart website using Python and MySQL.
 
+
 Steps Performed:
 
 Web Scraping (Python)
@@ -11,6 +12,7 @@ Web Scraping (Python)
 Collected mobile phone data (Title, Price, Rating) from Flipkart using BeautifulSoup and requests.
 
 Stored the scraped data into a CSV file.
+
 
 Data Cleaning:
 
@@ -21,6 +23,8 @@ Added derived columns:
 Price Category (Low / Medium / High)
 
 Rating Category (Low / Medium / High)
+
+
 
 SQL Operations (MySQL Workbench):
 
@@ -36,7 +40,8 @@ Views: Created a TopRatedMobiles view for mobiles with rating ≥ 4.5
 
 Optimized Query: Filtering mobiles by price range with sorting by rating
 
-Tech Stack
+
+Tech Stack:
 
 Python: BeautifulSoup, Pandas
 
@@ -44,7 +49,8 @@ Database: MySQL Workbench
 
 Libraries: requests, pandas, bs4
 
-Outcome
+
+Outcome:
 
 Extracted clean, structured dataset from Flipkart.
 
